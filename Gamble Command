@@ -76,10 +76,10 @@
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "defaultVal": "0",
       "storage": "1",
-      "varName2": "currentpoints",
+      "varName2": "currentcash",
       "name": "Store Member Data"
     },
     {
@@ -131,7 +131,7 @@
       "storage": "1",
       "varName": "amount",
       "comparison": "1",
-      "value": "tempVars(\"currentpoints\")",
+      "value": "tempVars(\"currentcash\")",
       "iftrue": "3",
       "iftrueVal": "3",
       "iffalse": "0",
@@ -139,14 +139,14 @@
       "name": "Check Variable"
     },
     {
-      "comment": ">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[Check if member has the same points]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯<",
+      "comment": ">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[Check if member has the same cash]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯<",
       "color": "#ff0000",
       "name": "Comment"
     },
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "comparison": "4",
       "value": "tempVars(\"amount\")",
       "iftrue": "0",
@@ -156,7 +156,7 @@
       "name": "Check Member Data"
     },
     {
-      "comment": ">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[Check if member has the points]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯<",
+      "comment": ">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[Check if member has the cash]⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯<",
       "color": "#ff0000",
       "name": "Comment"
     },
@@ -202,7 +202,7 @@
       "name": "Check Variable"
     },
     {
-      "FirstNumber": "${tempVars(\"currentpoints\")}",
+      "FirstNumber": "${tempVars(\"currentcash\")}",
       "info": "0",
       "SecondNumber": "${tempVars(\"amount\")}",
       "storage": "1",
@@ -218,7 +218,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "Current points balance: ${tempVars(\"win\")}",
+      "message": "Current cash balance: ${tempVars(\"win\")}",
       "footerIcon": "",
       "name": "Set Embed Footer"
     },
@@ -234,7 +234,7 @@
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "changeType": "0",
       "value": "tempVars(\"win\")",
       "name": "Control Member Data"
@@ -248,7 +248,7 @@
       "name": "Comment"
     },
     {
-      "FirstNumber": "${tempVars(\"currentpoints\")}",
+      "FirstNumber": "${tempVars(\"currentcash\")}",
       "info": "1",
       "SecondNumber": "${tempVars(\"amount\")}",
       "storage": "1",
@@ -264,7 +264,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "Current points balance: ${tempVars(\"lose\")}",
+      "message": "Current cash balance: ${tempVars(\"lose\")}",
       "footerIcon": "",
       "name": "Set Embed Footer"
     },
@@ -280,7 +280,7 @@
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "changeType": "0",
       "value": "tempVars(\"lose\")",
       "name": "Control Member Data"
@@ -317,7 +317,7 @@
       "name": "Comment"
     },
     {
-      "FirstNumber": "${tempVars(\"currentpoints\")}",
+      "FirstNumber": "${tempVars(\"currentcash\")}",
       "info": "0",
       "SecondNumber": "${tempVars(\"amount\")}",
       "storage": "1",
@@ -333,7 +333,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "Current points balance: ${tempVars(\"win\")}",
+      "message": "Current cash balance: ${tempVars(\"win\")}",
       "footerIcon": "",
       "name": "Set Embed Footer"
     },
@@ -349,7 +349,7 @@
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "changeType": "0",
       "value": "tempVars(\"win\")",
       "name": "Control Member Data"
@@ -363,7 +363,7 @@
       "name": "Comment"
     },
     {
-      "FirstNumber": "${tempVars(\"currentpoints\")}",
+      "FirstNumber": "${tempVars(\"currentcash\")}",
       "info": "1",
       "SecondNumber": "${tempVars(\"amount\")}",
       "storage": "1",
@@ -379,7 +379,7 @@
     {
       "storage": "1",
       "varName": "embed",
-      "message": "Current points balance: ${tempVars(\"lose\")}",
+      "message": "Current cash balance: ${tempVars(\"lose\")}",
       "footerIcon": "",
       "name": "Set Embed Footer"
     },
@@ -395,7 +395,7 @@
     {
       "member": "1",
       "varName": "",
-      "dataName": "points",
+      "dataName": "cash",
       "changeType": "0",
       "value": "tempVars(\"lose\")",
       "name": "Control Member Data"
