@@ -5,7 +5,7 @@ The Project Includes:
 ↦ Cash System: 
 Every message that member sends in the server he receive 1 cash. 
 He also can check how many cash he has by typing: !cash. 
-Further more, he can check how many cash there is to some member by typing: !cash <@MentionMember> Members can send cash to other members by the command: !transfer <@MentionMember> Be careful, There is tax that takes 10% from the amount, but Premium members enjoy from NON-Tax. ;)
+Further more, he can check how many cash there is to some member by typing: !cash <@MentionMember> Members can send cash to other members by the command: !transfer <@MentionMember> <Amount>.
 
 ↦ Gambling System: 
 By typing: !gamble The bot generate number and check if the member won or lose.
