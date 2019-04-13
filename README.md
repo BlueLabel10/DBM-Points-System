@@ -18,3 +18,4 @@ By typing !moneyboard you can see who is the most rich man in town.
 ↦ COMING SOON: 
 Edit Cash command for moderators.
 Transfer with tax. But Premium Members won't be tax.
+Bank System.
